@@ -1,0 +1,32 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "",
+    "expandedProjectPaths": [
+    ],
+    "fileStates": {
+        "Tower.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        }
+    },
+    "last.imagePath": "/home/walkercito/Hobbies/TinyWars/src/assets/Environment/Buildings/Tower",
+    "map.fixedSize": false,
+    "map.orientation": "2",
+    "map.tileHeight": 148,
+    "map.tileWidth": 276,
+    "openFiles": [
+        "Tower.tsx"
+    ],
+    "project": "TinyWars.tiled-project",
+    "recentFiles": [
+        "Tower.tsx"
+    ],
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.tileSize": {
+        "height": 256,
+        "width": 256
+    }
+}
