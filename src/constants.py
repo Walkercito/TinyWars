@@ -1,5 +1,3 @@
-import random
-
 # Game
 FPS: float = 60
 GAME_TITLE: str = "Tiny Wars"
@@ -26,18 +24,18 @@ TOWER_BASIC_WIDTH: int = 256
 
 # Audio
 confirm_sound: list[str] = [
-        "confirm_style_5_echo_001.ogg",
-        "confirm_style_5_echo_002.ogg",
-        "confirm_style_5_echo_003.ogg",
-        "confirm_style_5_echo_004.ogg",
-        "confirm_style_5_echo_005.ogg",
-        "confirm_style_5_echo_006.ogg",
-        "confirm_style_5_echo_007.ogg",
-        "confirm_style_5_001.ogg",
-        "confirm_style_5_002.ogg",
-        "confirm_style_5_003.ogg",
-        "confirm_style_5_004.ogg",
-        "confirm_style_5_005.ogg",
-        "confirm_style_5_006.ogg",
-        "confirm_style_5_007.ogg",
-    ]
+    "confirm_style_5_echo_001.ogg",
+    "confirm_style_5_echo_002.ogg",
+    "confirm_style_5_echo_003.ogg",
+    "confirm_style_5_echo_004.ogg",
+    "confirm_style_5_echo_005.ogg",
+    "confirm_style_5_echo_006.ogg",
+    "confirm_style_5_echo_007.ogg",
+    "confirm_style_5_001.ogg",
+    "confirm_style_5_002.ogg",
+    "confirm_style_5_003.ogg",
+    "confirm_style_5_004.ogg",
+    "confirm_style_5_005.ogg",
+    "confirm_style_5_006.ogg",
+    "confirm_style_5_007.ogg",
+]

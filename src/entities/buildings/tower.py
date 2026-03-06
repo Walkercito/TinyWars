@@ -3,9 +3,9 @@ from random import choice
 
 import pygame
 
+from src.constants import confirm_sound
 from src.entities.buildings.building import Building
 from src.utils.sound_manager import sound_manager
-from src.constants import confirm_sound
 
 
 class Tower(Building):
@@ -32,9 +32,7 @@ class Tower(Building):
 
             except FileNotFoundError:
                 print("Error loading Tower texture.")
-                Tower._texture_cache = pygame.Surface(
-                    (256, 256), pygame.SRCALPHA
-                )
+                Tower._texture_cache = pygame.Surface((256, 256), pygame.SRCALPHA)
                 Tower._texture_cache.fill((100, 100, 200, 255))
 
         super().__init__(row, column, Tower._texture_cache, grid)

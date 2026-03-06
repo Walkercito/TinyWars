@@ -12,6 +12,7 @@ from src.entities.buildings.manager import BuildingManager
 from src.entities.buildings.tower import Tower
 from src.utils.camera import Camera
 from src.utils.iso_grid import IsometricGrid
+from src.utils.timer import TimerManager
 
 
 class Game:
@@ -29,9 +30,7 @@ class Game:
         self.camera = Camera(speed=15, limit_x=3000, limit_y=3000)
         self.building_manager = BuildingManager()
 
-        self.window = pygame.display.set_mode(
-            (self.screen_width, self.screen_height)
-        )
+        self.window = pygame.display.set_mode((self.screen_width, self.screen_height))
         pygame.display.set_caption(self.title)
 
         x_offset = self.screen_width // 2
@@ -96,5 +95,7 @@ class Game:
         self.building_manager.draw(
             self.window, self.camera.x, self.camera.y, self.camera.zoom
         )
+
+        self.camera.apply_vignette(self.window)
 
         pygame.display.flip()
